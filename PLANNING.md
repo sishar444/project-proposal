@@ -8,7 +8,7 @@ Anyone interested in going to live events.
 
 ### User Needs Statement
 
-As a user, I want to be able to search for upcoming events (sports, concerts, operas, etc.) in my area. 
+As a user, I want to be able to search for upcoming events (sports, concerts, operas, etc.) in my area. I should be able to filter my search by location, and save a list in CSV format for future reference.
 
 ## Information Requirements
 
@@ -18,18 +18,20 @@ todo: describe information inputs (see proposal instructions)
 
 ### Information Outputs
 
-todo: describe information outputs (see proposal instructions)
+  1. An `events.csv` file containing a list of events from a search the user chose to save.
 
 ## Technology Requirements
 
 ### APIs and Web Service Requirements
 
-todo: describe which APIs or web services, if any, the system will use (see proposal instructions)
+This app will use the [Ticketmaster API](https://developer.ticketmaster.com/) to access data on upcoming events around the world.
 
 ### Python Package Requirements
 
-todo: describe which third-party python packages, if any, the system will use (see proposal instructions)
+The application does not require any third-party packages, except [pytest](https://docs.pytest.org/en/latest/) for testing purposes.
+
+The application does however make extensive use of the requests, datetime, os and csv modules.
 
 ### Hardware Requirements
 
-todo: describe hardware requirements, if any (see proposal instructions)
+The application will be running on my own local machine. I have no plans to deploy this application to a public server.
