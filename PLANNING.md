@@ -14,7 +14,7 @@ As a user, I want to be able to search for upcoming events (sports, concerts, op
 
 ### As-is Process Description
 
-  1. Go to www.ticketmaster.com
+  1. Go to the Ticketmaster website.
   2. Search for an event that you are interested in.
   3. Filter the results by city, state, or country.
   4. No way to save the list other than printing a hard copy.
