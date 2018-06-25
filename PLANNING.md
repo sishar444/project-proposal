@@ -48,7 +48,7 @@ The application will use the [Ticketmaster API](https://developer.ticketmaster.c
 
 The application requires two third-party packages, [pytest](https://docs.pytest.org/en/latest/) for testing purposes and [requests](http://docs.python-requests.org/en/master/) for api calls.
 
-The application does however make extensive use of the json, datetime, math, os and csv modules.
+The application does also make extensive use of the json, datetime, math, os and csv modules.
 
 ### Hardware Requirements
 
