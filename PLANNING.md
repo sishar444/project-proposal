@@ -31,6 +31,7 @@ As a user, I want to be able to search for upcoming events (sports, concerts, op
 ### Information Inputs
 
   1. User search terms, as strings input locally.
+  2. User commands to interact with the application.
 
 ### Information Outputs
 
@@ -45,9 +46,9 @@ The application will use the [Ticketmaster API](https://developer.ticketmaster.c
 
 ### Python Package Requirements
 
-The application does not require any third-party packages, except [pytest](https://docs.pytest.org/en/latest/) for testing purposes.
+The application requires two third-party packages, [pytest](https://docs.pytest.org/en/latest/) for testing purposes and [requests](http://docs.python-requests.org/en/master/) for api calls.
 
-The application does however make extensive use of the requests, datetime, os and csv modules.
+The application does however make extensive use of the json, datetime, math, os and csv modules.
 
 ### Hardware Requirements
 
