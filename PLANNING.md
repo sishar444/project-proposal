@@ -36,7 +36,8 @@ As a user, I want to be able to search for upcoming events (sports, concerts, op
 ### Information Outputs
 
   1. List of events printed out locally.
-  2. An `{search term}-events.csv` file containing a list of events from a search the user chose to save.
+  2. List of commands user can type to interact with program.
+  3. An `{search term}-events.csv` file containing a list of events from a search the user chose to save.
 
 ## Technology Requirements
 
